@@ -10,7 +10,7 @@ public class TestNGClass {
 	  driver=new ChromeDriver();
 	  
   }
-  @AfterClass (groups= {"Sanity"})
+  @AfterClass (groups= {"Sanity"})//
   public void close() {
 	  try {
 		Thread.sleep(1500);
